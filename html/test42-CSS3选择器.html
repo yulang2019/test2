@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS3选择器</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        .container{
+            margin: 100px auto;
+            width: 200px;
+            border: 3px solid #8080ff;
+           
+        }
+        /* 相邻选择器 +
+         .son1+li{
+            background-color: #dfdf00;
+        }
+          .son2+.son3{
+            background-color: #dfdf00;
+
+        }
+        .child+li{
+            background-color: #ff8080;
+        }
+     */
+     /* 兄弟选择器 ~*/
+  /*    .son1~.son2{
+        background-color: #408080;
+     } 
+     .son1~li{
+         background-color: #400040;
+     }
+     .child~li{
+         background-color: #808000;
+     } */
+     /* 属性选择器 */
+   /*   li[class="son"]{
+         background-color: #400000;
+     } */
+    /*  li[class]{
+         background-color: #004000;
+     } */
+    /*  li[class="child son1"]{
+         background-color: #ff8000;
+     } */
+     /* li[class~=child]{
+         background-color: #004000;
+     }   */
+     /* li[class^=son]{
+         background-color: #008040;
+     } */
+   /*   li[class$="son"]{
+         background-color: #5ab1b1;
+
+     } */
+     /* li[class*="son"]{
+         background-color: #408080;
+     } */
+     li[class|="son"]{
+         background-color: #8080ff;
+
+     }
+    
+    
+    
+
+    </style>
+</head>
+<body>
+    <ul class="container">
+        <li class="son1 child ">1</li>
+        <li class="child son2">2</li>
+        <li class="child son3">3</li>
+        <li class="child son4">4</li>
+        <li class="son child ">5</li>
+        <li class="son6">6</li>
+        <li class="son-8">7</li>
+        <li class="son">8</li>
+        <li  class="son" >9</li>
+        
+    </ul>
+    
+</body>
+</html>

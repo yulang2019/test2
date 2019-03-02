@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>animation</title>
+    <style>
+        .div{
+            width: 200px;
+            height: 200px;
+            background-color: #408080;
+            overflow: hidden;
+            margin: 100px auto;
+
+        }
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: #712699;
+            margin-top: 50px;
+            animation:bigger 3s linear forwards;
+        }
+        @-webkit-keyframes bigger{
+            0%{
+                background-color: #ff0000;
+                border:3px solid #ffff20;
+                height: 200px;
+            }
+            50%{  background-color: #302626;
+                border:3px solid #392277;
+                height: 50px;
+
+            }
+            100%{
+                background-color: #290953;
+                border:3px solid #408080;
+                height: 150px;
+
+            }
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="div">
+        <div class="div1">正</div>
+    </div>
+    
+</body>
+</html>
