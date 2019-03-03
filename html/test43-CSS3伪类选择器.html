@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪类选择器</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            margin: 100px auto;
+            border: 3px solid #408080;
+        }
+        /* 伪类选择器：link visited hover active */
+       /*  li.son1.child:visited{
+            background-color: #ff8080;
+        }
+        li.son1.child:hover{
+            background-color: #681717;
+            cursor: pointer;
+        }
+        li.son1.child:active{
+            background-color: #804040;
+            cursor: pointer;
+        } */
+        /* 伪类焦点选择器E：focus */
+      /*   .child-form>input:focus{
+                background-color: #408080;
+        } */
+        /* E:not(选择器) */
+        /* li:not(first-child){
+            background-color: #808040;
+        }
+        p:not(first-child){
+            background-color: #004000;
+        } */
+        /* E:first-child ;E:last-child(必须是第一个孩子（位置的第一个）/或者最后一个孩子)*/
+        /*li:first-child{
+            background-color: #400040;
+        }
+        li:last-child{
+            background-color: #408080;
+        }*/
+        /*E:first-of-type;last-of-type(类型的第一个不一定是位置的第一个（）/最后一个)*/
+       /*  li:first-of-type{
+            background-color: #400040;
+        }
+        p:first-of-type{
+            background-color: #ff8040;
+        }
+        li:last-of-type{
+            background-color: #808080;
+        }
+        p:last-of-type{
+            background-color: #008000;
+        }
+        */
+        /*E:nth-child;*/
+        /* li:nth-child(even){
+            background-color: #400040;
+        }
+        p:nth-child(odd){
+            background-color: #808000;
+        } */
+        /* E:nth-last-child */
+     /*    li:nth-last-child(2){
+            background-color: #c0c0c0;
+        }
+         */
+         /* only-of-type */
+       /*   p:only-of-type{
+             background-color: #400040;
+
+         }     */
+         
+    </style>
+</head>
+<body>
+    <form action="" method="GET">
+    <ul class="container">
+        <li class="son1 child">1232我们的古树</li>
+        <p class="other">a</p>
+        <li class="son2 child">2</li>
+        <li class="son3 child">3</li>
+        <li class="son4">4</li>
+        <li class="son5">5</li>
+        <p class="other">b</p>
+        <li class="son6">6</li>
+        <li class="child">7</li>
+        <li class="child">6</li>
+        <li class="child">7</li>
+        <li class="child-form"><input type="text" placeholder="name" required></li>
+        <li><input type="submit" value="登录"></li>
+    </ul>   
+</form>
+</body>
+</html>
