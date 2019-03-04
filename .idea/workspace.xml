@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e95ba6f-211a-456d-b00d-db8e02e5f1e2" name="Default" comment="" />
+    <list default="true" id="8e95ba6f-211a-456d-b00d-db8e02e5f1e2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,7 +16,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="js_head_nav.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="761" column="20" lean-forward="true" selection-start-line="761" selection-start-column="20" selection-end-line="761" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js_head_nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3061">
+              <caret line="412" column="57" selection-start-line="412" selection-start-column="57" selection-end-line="412" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -24,6 +46,7 @@
       <list>
         <option value="$PROJECT_DIR$/html/test39表单.html" />
         <option value="$PROJECT_DIR$/html/test38父子盒子box-sizing.1.html" />
+        <option value="$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html" />
       </list>
     </option>
   </component>
@@ -44,7 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -55,17 +77,23 @@
             <path>
               <item name="test2" type="b2602c69:ProjectViewProjectNode" />
               <item name="test2" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu_dropdown_list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/first" />
+    <property name="last_opened_file_path" value="E:/fellows31" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -75,6 +103,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\test2\imgs" />
       <recent name="E:\test2\html" />
     </key>
   </component>
@@ -103,6 +132,11 @@
       <workItem from="1551521573060" duration="174000" />
       <workItem from="1551521807011" duration="149000" />
       <workItem from="1551684241443" duration="28000" />
+      <workItem from="1551697030223" duration="2233000" />
+      <workItem from="1551745227881" duration="3091000" />
+      <workItem from="1551852772173" duration="783000" />
+      <workItem from="1551855023112" duration="471000" />
+      <workItem from="1551855663216" duration="3568000" />
     </task>
     <task id="LOCAL-00001" summary="简单例子">
       <created>1551521724489</created>
@@ -122,15 +156,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351000" />
+    <option name="totallyTimeSpent" value="10497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -141,10 +176,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3289689" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,59 +193,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="简单例子" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/test39表单.html">
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="1950">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="2" selection-end-line="77" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/test40动画.html">
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="4706">
+          <caret line="181" column="80" lean-forward="true" selection-start-line="173" selection-start-column="15" selection-end-line="181" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/test38父子盒子box-sizing.1.html">
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="1950">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="2" selection-end-line="77" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/test39表单.html">
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="4706">
+          <caret line="181" column="80" lean-forward="true" selection-start-line="173" selection-start-column="15" selection-end-line="181" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/test40动画.html">
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="1950">
+          <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="77" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/test39表单.html">
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="3302">
+          <caret line="127" column="25" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="127" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/test40动画.html">
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="3198">
+          <caret line="123" column="53" lean-forward="true" selection-start-line="123" selection-start-column="53" selection-end-line="123" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/test38父子盒子box-sizing.1.html">
+    <entry file="file://$PROJECT_DIR$/html/test39表单.html" />
+    <entry file="file://$PROJECT_DIR$/html/test40动画.html" />
+    <entry file="file://$PROJECT_DIR$/html/test38父子盒子box-sizing.1.html" />
+    <entry file="file://$PROJECT_DIR$/html/test39表单.html" />
+    <entry file="file://$PROJECT_DIR$/html/test40动画.html" />
+    <entry file="file://$PROJECT_DIR$/html/test39表单.html" />
+    <entry file="file://$PROJECT_DIR$/html/test40动画.html" />
+    <entry file="file://$PROJECT_DIR$/html/test38父子盒子box-sizing.1.html" />
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="3061">
+          <caret line="412" column="57" selection-start-line="412" selection-start-column="57" selection-end-line="412" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu_dropdown_list/js_head_nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="761" column="20" lean-forward="true" selection-start-line="761" selection-start-column="20" selection-end-line="761" selection-end-column="20" />
         </state>
       </provider>
     </entry>
