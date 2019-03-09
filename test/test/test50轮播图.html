@@ -105,7 +105,7 @@
         var aimg=oDiv.getElementsByTagName("img");
        
         var oNext=document.getElementById("next");
-        var olast=document.getElementById("last");
+        var oLast=document.getElementById("last");
       
 
        /*  var aUlItem=document.getElementById("item-next");
@@ -115,33 +115,40 @@
         {
             aLi[i].index=i;
             aLi[i].onclick=function(){
-                for(var j=0;j<aLi.length;j++)
-                {
-                    aLi[j].className="";
-                    aimg[j].className="";
-                }
-                this.className="selected";
-                aimg[this.index].className="checked";//图片
-            }
-        }
-
-
-            oNext.onclick=function(){
             
-            nextIndex++;
-            if(nextIndex==aLi.length){
-                nextIndex=0;
+                change(this.index);
+               /*  aLi[this.index].className="selected";
+               /*  this.className="selected"; */
+                aimg[this.index].className="checked";//图片 */
+                nextIndex=this.index;
             }
-            console.log(nextIndex);
-            for(var t=0;t<aLi.length;t++)
-            {
-                aLi[t].className="";
-               aimg[t].className="";
-            }
-            aLi[nextIndex].className="selected";
-            aimg[nextIndex].className="checked";
-
         }
+            oNext.onclick=function(){
+                nextIndex++;
+                if(nextIndex==aLi.length){
+                    nextIndex=0;
+                }
+                change(nextIndex);
+            } 
+            oLast.onclick=function(){
+               
+                if(nextIndex==0)
+                {
+                    nextIndex=aLi.length;
+                }
+                nextIndex--;
+                change(nextIndex);
+            }
+            function change(index){
+                for(var t=0;t<aLi.length;t++)
+                {
+                    aLi[t].className="";
+                    aimg[t].className="";
+                }
+                aLi[index].className="selected";
+                aimg[index].className="checked";
+            }
+
 
 
 
