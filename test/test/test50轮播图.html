@@ -18,6 +18,7 @@
             width: 700px;
             height: 400px;
             position: relative;
+            cursor: pointer;
         }
         img{
             width: 700px;
@@ -77,7 +78,7 @@
     </style>
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap" id="wrap">
         <div class="box-image" id="box-image">
             <img src="img/1.webp" alt="" class="checked">
             <img src="img/2.webp" alt="">
@@ -106,6 +107,7 @@
        
         var oNext=document.getElementById("next");
         var oLast=document.getElementById("last");
+        var owrap=document.getElementById("wrap");
       
 
        /*  var aUlItem=document.getElementById("item-next");
@@ -148,6 +150,22 @@
                 aLi[index].className="selected";
                 aimg[index].className="checked";
             }
+            var timer;
+            run();
+            owrap.onmouseover=function(){
+                clearInterval(timer);
+            }
+            owrap.onmouseout=function(){
+                run();
+            }
+
+            function run(){
+                timer =setInterval(function(){
+                oNext.onclick();
+                },1000);
+            }
+
+
 
 
 
