@@ -5,28 +5,30 @@
     <title>transform/transition</title>
 </head>
 <style>
-    .div{
-        background-color:#ff00ff;
+    .div {
+        background-color: #ff00ff;
         width: 400px;
         height: 400px;
         margin: 100px auto;
-        padding: 150px  150px;
+        padding: 150px 150px;
         box-sizing: border-box;
     }
-    .div1{
+
+    .div1 {
         width: 100px;
         height: 100px;
         background-color: aqua;
 
 
     }
-    .div1:hover{
+
+    .div1:hover {
         -webkit-transition: all 12s linear;
-        -moz-transition:all 12s linear;
+        -moz-transition: all 12s linear;
         -ms-transition: all 12s linear;
         -o-transition: all 12s linear;
         transition: all 12s linear;
-        transform: rotate(-180deg) scale(3) translate(-10px,30px);
+        transform: rotate(-180deg) scale(3) translate(-10px, 30px);
         -webkit-transform-origin: left bottom;
         -moz-transform-origin: left bottom;
         -ms-transform-origin: left bottom;
@@ -39,11 +41,13 @@
 
     }
 </style>
+
 <body>
-<div class="div">
-    <div class="div1">正</div>
-</div>
+    <div class="div">
+        <div class="div1">正</div>
+    </div>
 
 
 </body>
+
 </html>

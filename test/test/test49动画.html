@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>animation</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color: #ff8000;
+            margin: 100px auto;
+            animation: bigger 3s linear 2 forwards;
+        }
+        @keyframes bigger{
+            0%{
+                width: 100px;
+                background-color: #008000;
+                height: 450px;
+
+            }  
+            50%{
+                width: 700px;
+                background-color: #000080;
+                height: 20px;
+
+
+            }
+            100%{
+                width: 204px;
+                background-color: #800000;
+                height: 34px;
+
+            }         
+        }
+    </style>
 </head>
 <body>
+    <div id="div1">1</div>
     
 </body>
 </html>

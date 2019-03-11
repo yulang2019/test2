@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cube</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #000000;
+            perspective: 4000px; 
+            perspective-origin:  50% 50%; 
+        }
+        /* container也在做3D变化， */
+        .container{
+            width: 200px;
+            margin: 100px auto;
+            position: relative;
+            height: 200px;
+            animation: spin 3s linear infinite; 
+             transform-style: preserve-3d;
+          
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: rgba(255,255, 255, .6);
+            font-size: 60px;
+            border: 1px solid #fff;
+            text-align: center;
+            line-height: 200px;
+            border-radius: 10%;
+            position: absolute;
+           
+        }
+        .div1{
+           
+            /* transform-origin: left;  
+            transform: rotateY(-90deg); */
+           transform:translateX(-100px) rotateY(-90deg);  
+          /*    transform: rotateY(-90deg) /* translateZ(100px) */ 
+            
+        }
+        .div2{
+           /*  transform-origin: right;  
+            transform: rotateY(90deg); */
+            transform: rotateY(90deg) translateZ(100px);  
+
+        }
+        .div3{
+          /*   transform-origin: top;  
+            transform: rotateX(90deg); */
+            transform:rotateX(90deg) translateZ(100px); 
+        }
+        .div4{
+            /* transform-origin: bottom;  
+            transform: rotateX(-90deg); */
+            transform: rotateX(-90deg) translateZ(100px); 
+        }
+        .div5{
+            /*  transform-origin: bottom;  
+            transform: rotateY(180deg);  */
+           transform: rotateY(180deg) translateZ(100px); 
+
+        }
+        .div6{
+            transform: translateZ(100px);
+          /*   transform: translateZ(200px); */
+        
+        }
+       @keyframes spin{
+           to{
+               transform: rotateY(-360deg);
+
+           }
+
+       }
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box div1">1</div>
+        <div class="box div2">2</div>
+          <div class="box div3">3</div>
+         <div class="box div4">4</div>
+         <div class="box div5">5</div> 
+        <div class="box div6">6</div>  
+    </div>
+</body>
+</html>
