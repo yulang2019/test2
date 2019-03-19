@@ -12,7 +12,7 @@
         }
         body{
             background-color: #000000;
-            perspective: 4000px; /*视角的距离*/
+            perspective: 4000px; 
             perspective-origin:  50% 50%; 
         }
         /* container也在做3D变化， */
@@ -21,8 +21,8 @@
             margin: 100px auto;
             position: relative;
             height: 200px;
-            /* animation: spin 3s linear infinite;  */
-            transform-style: preserve-3d;
+            animation: spin 3s linear infinite; 
+             transform-style: preserve-3d;
           
         }
         .box{
@@ -39,39 +39,38 @@
         }
         .div1{
            
-             transform-origin: left;  
-            transform: rotateY(-90deg); 
-          /*  transform:translateX(-100px) rotateY(-90deg);   */
+            /* transform-origin: left;  
+            transform: rotateY(-90deg); */
+           transform:translateX(-100px) rotateY(-90deg);  
           /*    transform: rotateY(-90deg) /* translateZ(100px) */ 
             
         }
         .div2{
-             transform-origin: right;  
-            transform: rotateY(90deg); 
-          /*   transform: rotateY(90deg) translateZ(100px);   */
+           /*  transform-origin: right;  
+            transform: rotateY(90deg); */
+            transform: rotateY(90deg) translateZ(100px);  
 
         }
         .div3{
-             transform-origin: top;  
-            transform: rotateX(90deg); 
-            /* transform:rotateX(90deg) translateZ(100px); */
-        } 
+          /*   transform-origin: top;  
+            transform: rotateX(90deg); */
+            transform:rotateX(90deg) translateZ(100px); 
+        }
         .div4{
-            transform-origin: bottom;  
-            transform: rotateX(-90deg);
-           /*  transform: rotateX(-90deg) translateZ(100px); */
+            /* transform-origin: bottom;  
+            transform: rotateX(-90deg); */
+            transform: rotateX(-90deg) translateZ(100px); 
         }
         .div5{
-            transform-origin: bottom;  
-            transform: rotateY(180deg);  
-           /* transform: rotateY(180deg) translateZ(100px); */
+            /*  transform-origin: bottom;  
+            transform: rotateY(180deg);  */
+           transform: rotateY(180deg) translateZ(100px); 
 
         }
         .div6{
-            /* transform: translateZ(100px); */
-           transform: translateZ(200px); 
+            transform: translateZ(100px);
+          /*   transform: translateZ(200px); */
         
-
         }
        @keyframes spin{
            to{
